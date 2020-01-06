@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+ 
+}
+header {
+  height: 900px;
+ 
+
+}
+.main-nav,
+.main {
+  position: relative; 
+}
+.main-nav {
+  height: 80px;
+  z-index: 9999;
+  margin-bottom: -80px;
+  margin-left:auto;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+}
+.main {
+  background: #FFFFFF;
+  padding: 110px 50px 50px; 
+  column-count: 2;
+  column-gap: 40px;
+  width:100%;
+  margin-left:auto;
+  margin-top: 50px;
+}
+.main2 {
+  position:relative;
+  padding-top:20px;
+}
+.navbar {
+	margin-bottom:0px;
+}
+#wrapper {
+	background-image:url(images/WhiteBG.jpg);
+	width:100%;
+	z-index:9998;
+}
+#media1 {
+	padding-right:0px;
+}
+.brandCap {
+	color:#707070;
+	font-size:24px;
+}
+.brand {
+	color: #707070;
+	font-size:24px;
+}
